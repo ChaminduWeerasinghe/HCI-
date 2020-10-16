@@ -1,0 +1,136 @@
+.cake-wrap {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+.cake-wrap img {
+  width: 50px;
+  object-fit: cover;
+  height: 50px;
+}
+.checkbox-wrp {
+  text-align: center;
+}
+.product-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  border-radius: 6px;
+}
+.product-wrp {
+  width: 400px;
+  float: left;
+  height: 400px;
+}
+.product-wrp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-description {
+  margin-top: 50px;
+}
+.bg-gradient-primary {
+  background-color: #fbf537;
+  background-image: linear-gradient(180deg, #d66d45 10%, #ff9900);
+  background-size: cover;
+}
+.error-cus {
+  position: relative;
+  animation: shake 0.1s linear;
+  animation-iteration-count: 3;
+  border: 1px solid red;
+  outline: none;
+}
+/* popup */
+.modal-confirm {
+  color: #434e65;
+  width: 525px;
+}
+.modal-confirm .modal-content {
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-confirm .modal-header {
+  background: #47c9a2;
+  border-bottom: none;
+  position: relative;
+  text-align: center;
+  margin: -20px -20px 0;
+  border-radius: 5px 5px 0 0;
+  padding: 35px;
+}
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 36px;
+  margin: 10px 0;
+}
+.modal-confirm .form-control,
+.modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px;
+}
+.modal-confirm .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.5;
+}
+.modal-confirm .close:hover {
+  opacity: 0.8;
+}
+.modal-confirm .icon-box {
+  color: #fff;
+  width: 95px;
+  height: 95px;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 9;
+  border: 5px solid #fff;
+  padding: 15px;
+  text-align: center;
+}
+.modal-confirm .icon-box i {
+  font-size: 64px;
+  margin: -4px 0 0 -4px;
+}
+.modal-confirm.modal-dialog {
+  margin-top: 80px;
+}
+.modal-confirm .btn,
+.modal-confirm .btn:active {
+  color: #fff;
+  border-radius: 4px;
+  background: #eeb711 !important;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 6px 20px;
+  border: none;
+}
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+  background: #eda645 !important;
+  outline: none;
+}
+.modal-confirm .btn span {
+  margin: 1px 3px 0;
+  float: left;
+}
+.modal-confirm .btn i {
+  margin-left: 1px;
+  font-size: 20px;
+  float: right;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}

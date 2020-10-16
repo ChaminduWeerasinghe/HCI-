@@ -27,10 +27,10 @@ console.log(window.localStorage);
         console.log('login success');
         if (user.usertype == 'admin') {
             console.log('admin');
-            window.location.assign(dashboard.html)
+            window.location.assign("dashboard.html");
         } else {
             console.log('user');
-            window.location.assign(Home.html)
+            window.location.assign("Home.html");
         }
     } else {
         console.log('login failed');

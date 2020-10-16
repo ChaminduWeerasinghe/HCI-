@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Account</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./assets/registerjs/script.js"></script>
+
+<!--    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    
+
+<div class="container">
+        <div class="header">
+            <h2>Register</h2>
+        </div>
+    <form class="form" id="form" method="get">
+        <div class="form-control ">
+            <label>Username </label>
+            <input type="text" placeholder="example:shiyaam" id="username">
+             <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+             <span class = 'errormsg' id="usernameError">complete this field</span> 
+           
+            
+            
+        </div>
+        
+         <div class="form-control" >
+            <label>Email</label>
+            <input type="text" placeholder="abc@gmail.com" id="email"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="please include '@' in the email addresss,Example:abcgmail.com "  >
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+               <span  class = 'errormsg' id="emailError">complete this field</span> 
+            
+        </div>
+         <div class="form-control">
+            <label>Usertype </label>
+            
+             <select style="width: 100%" id="usertype">
+                <option value="admin">Admin</option>
+                <option value="customer">Customer</option>
+             </select>
+        
+
+            <span  class = 'errormsg' id="userError">complete this field</span> 
+            
+        </div>
+         <div class="form-control">
+            <label>Password </label>
+            <input type="password" placeholder="Password" id="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+     <span  class = 'errormsg' id="passwordError">complete this field</span> 
+            
+        </div>
+      
+              
+        
+        
+        
+         <div class="form-control">
+            <label>Password-Check</label>
+            <input type="password" placeholder="Password two" id="password2">
+            
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+            <span  class = 'errormsg' id="password2Error">complete this field</span>
+            
+        </div>
+        <button  type="submit" >Submit</button>
+        
+        
+        
+        
+                
+
+        
+    </form>
+        
+
+</body>
+</html>
